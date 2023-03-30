@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>My Hobby Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1>My Hobby Page</h1>
+      <span id="current-date"></span>
+      <script>
+      const currentDate = new Date();
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      document.getElementById('current-date').textContent = currentDate.toLocaleDateString('en-US', options);
+    </script>
+    
+    </header>
+    <main>
+     
+
+    <div class="contenter"> 
+    
+                <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="../hobby_page/accets/1F839795-A5ED-4049-94C0-10A728931228.JPG" alt="Lights" style="width:100%">
+                      <div class="caption">
+                        <p>Just learning how to Code!!</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="./accets/AC8FBEED-1BB1-4EE4-A745-70354E171289.JPG" alt="Nature" style="width:100%">
+                      <div class="caption">
+                        <p>Food ymmmy!</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="#" target="_blank">
+                      <img src="./accets/IMG_2797.jpg" alt="Fjords" style="width:100%">
+                      <div class="caption">
+                        <p>Me in the gym!!</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    </main>
+
+
+
+    <footer class="footer">
+      &copy; 2023 My Hobby Page
+      
+    </footer>
+   
+  </body>
+</html>
